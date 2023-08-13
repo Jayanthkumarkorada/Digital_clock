@@ -1,0 +1,56 @@
+body{
+    font-family:sans-serif;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    height:100vh;
+    justify-content:center;
+    background:url(pleasant-wallpaper.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-attachment:fixed;
+}
+h2{
+    letter-spacing:3px;
+    text-align:center;
+    font-size:3rem;
+    color:white;
+}
+.clock{
+    display:flex; 
+    
+}
+.clock div{
+    margin:10px;
+    position:relative;
+   
+}
+.clock span{
+    
+    width:100px;
+    height:80px;
+    /* background-color:white; */
+    /* border:2px solid white; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:50px;
+    color:white;
+}
+.clock .text{
+    height:30px;
+    font-size:10px;
+    text-transform: uppercase;
+    letter-spacing:2px;
+    color:white;
+}
+.clock #ampm{
+    bottom:2px;
+    position:absolute;
+    font-size:30px;
+    height:30px;
+    weight:60px;
+    color:white;
+
+}
